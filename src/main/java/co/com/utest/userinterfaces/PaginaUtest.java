@@ -10,6 +10,6 @@ import org.openqa.selenium.By;
 public class PaginaUtest extends PageObject {
 
     public static final Target BOTON_JOIN_TODAY = Target.the("Boton para iniciar usuario").located(By.className("unauthenticated-nav-bar__sign-up"));
-    public static final Target BOTON_Login = Target.the("Boton para ingresar sesion").located(By.xpath("//*[contains(text(),'Log In')]"));
+    //public static final Target BOTON_Login = Target.the("Boton para ingresar sesion").located(By.xpath("//*[contains(text(),'Log In')]"));
 
 }
